@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TANTICA | Diseño y Accesorios</title>
+    <style>
+        /* Estilos generales (CSS) */
+        body {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background-color: #fafafa;
+        }
+
+        /* Barra de navegación */
+        header {
+            background-color: #ffffff;
+            padding: 20px 50px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid #eaeaea;
+            position: sticky;
+            top: 0;
+        }
+
+        .logo {
+            font-size: 26px;
+            font-weight: bold;
+            letter-spacing: 3px;
+            color: #111;
+        }
+
+        nav a {
+            margin-left: 30px;
+            text-decoration: none;
+            color: #555;
+            text-transform: uppercase;
+            font-size: 13px;
+            letter-spacing: 1px;
+            transition: color 0.3s ease;
+        }
+
+        nav a:hover {
+            color: #d4af37; /* Toque de color dorado/metalizado */
+        }
+
+        /* Sección principal (Hero) */
+        .hero {
+            height: 80vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 0 20px;
+            /* Aquí luego añadiremos una de tus imágenes en alta resolución de fondo */
+            background-color: #e9e9e9; 
+        }
+
+        .hero h1 {
+            font-size: 52px;
+            margin-bottom: 15px;
+            letter-spacing: 2px;
+        }
+
+        .hero p {
+            font-size: 18px;
+            color: #666;
+            max-width: 600px;
+            line-height: 1.6;
+        }
+
+        .btn {
+            margin-top: 30px;
+            padding: 12px 30px;
+            background-color: #111;
+            color: #fff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 14px;
+            letter-spacing: 2px;
+            border: 1px solid #111;
+            transition: all 0.3s ease;
+        }
+
+        .btn:hover {
+            background-color: #fff;
+            color: #111;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Encabezado y Menú -->
+    <header>
+        <div class="logo">TANTICA</div>
+        <nav>
+            <a href="#inicio">Inicio</a>
+            <a href="#coleccion">Colección</a>
+            <a href="#nosotros">Nosotros</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+    </header>
+
+    <!-- Sección de Bienvenida -->
+    <section class="hero" id="inicio">
+        <h1>Arte en cada detalle</h1>
+        <p>Diseño de indumentaria y accesorios únicos, elaborados con precisión, texturas inigualables y una visión contemporánea.</p>
+        <a href="#coleccion" class="btn">Explorar la Colección</a>
+    </section>
+
+</body>
+</html>

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agencia despachante W.L. Obando | Consultoría Aduanera de Alto Nivel</title>
+    <style>
+        /* --- ESTILOS GENERALES --- */
+        :root { 
+            --primary: #0a2540; 
+            --accent: #c69c6d; 
+            --text: #333; 
+            --light: #f9f9f9;
+        }
+        body { font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; margin: 0; color: var(--text); line-height: 1.6; background-color: #fff; }
+        
+        /* --- HEADER --- */
+        header { background: rgba(255, 255, 255, 0.98); padding: 20px 8%; display: flex; justify-content: space-between; align-items: center; position: sticky; top: 0; border-bottom: 1px solid #eee; z-index: 1000; }
+        .brand { font-size: 18px; font-weight: 800; color: var(--primary); text-transform: uppercase; letter-spacing: -0.5px; }
+        nav a { margin-left: 25px; text-decoration: none; color: var(--primary); font-size: 14px; font-weight: 500; transition: color 0.3s; }
+        nav a:hover { color: var(--accent); }
+
+        /* --- HERO --- */
+        .hero { padding: 120px 8%; background: linear-gradient(135deg, var(--primary) 0%, #1a3a5a 100%); color: white; text-align: center; }
+        .hero h1 { font-size: 50px; margin-bottom: 20px; font-weight: 700; }
+        .hero p { font-size: 20px; max-width: 700px; margin: 0 auto 30px; opacity: 0.9; }
+        .btn-cta { background: var(--accent); color: white; padding: 15px 40px; text-decoration: none; border-radius: 5px; font-weight: 600; transition: background 0.3s; }
+        .btn-cta:hover { background: #b0895d; }
+
+        /* --- SECCIONES --- */
+        section { padding: 80px 8%; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 30px; margin-top: 40px; }
+        .card { padding: 40px; border: 1px solid #eee; border-radius: 8px; transition: all 0.3s; }
+        .card:hover { border-color: var(--accent); box-shadow: 0 10px 30px rgba(0,0,0,0.05); }
+        h2 { color: var(--primary); text-align: center; margin-bottom: 40px; }
+
+        /* --- FORMULARIO --- */
+        .formulario { max-width: 600px; margin: 0 auto; background: var(--light); padding: 40px; border-radius: 8px; border-top: 4px solid var(--primary); }
+        .formulario input, .formulario select, .formulario textarea { width: 100%; padding: 12px; margin: 10px 0 20px; border: 1px solid #ddd; border-radius: 4px; box-sizing: border-box; }
+        .formulario button { width: 100%; padding: 15px; background: var(--primary); color: white; border: none; font-weight: bold; cursor: pointer; }
+
+        /* --- FOOTER --- */
+        footer { background: var(--primary); color: #fff; padding: 40px 8%; text-align: center; font-size: 14px; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="brand">Agencia despachante W.L. Obando</div>
+        <nav>
+            <a href="#inicio">Inicio</a>
+            <a href="#servicios">Servicios</a>
+            <a href="#normativa">Marco Legal</a>
+            <a href="#noticias">Actualidad</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+    </header>
+
+    <section class="hero" id="inicio">
+        <h1>Excelencia en Gestión Aduanera</h1>
+        <p>Expertos en comercio exterior. Soluciones legales y logísticas diseñadas para asegurar la eficiencia de sus operaciones internacionales.</p>
+        <a href="#contacto" class="btn-cta">Solicitar Asesoría</a>
+    </section>
+
+    <section id="servicios">
+        <h2>Nuestros Servicios</h2>
+        <div class="grid">
+            <div class="card"><h3>Despachos Especializados</h3><p>Manejo integral de importaciones y exportaciones con estricto cumplimiento normativo.</p></div>
+            <div class="card"><h3>Consultoría Arancelaria</h3><p>Optimización de costos y clasificación precisa de mercancías para maximizar beneficios.</p></div>
+            <div class="card"><h3>Logística Internacional</h3><p>Coordinación estratégica que garantiza el flujo constante de sus activos.</p></div>
+        </div>
+    </section>
+
+    <section id="normativa" style="background: var(--light);">
+        <h2>Marco Legal y Técnico</h2>
+        <div class="grid">
+            <div class="card"><h4>Marco Jurídico</h4><p>Operamos bajo el rigor de la <strong>Ley 1990</strong>, su Reglamento y el <strong>Código de Comercio</strong>, asegurando operaciones blindadas.</p></div>
+            <div class="card"><h4>Operador de Aduanas</h4><p>Gestión completa del estatus OCE, previniendo <strong>sanciones y contravenciones</strong> mediante un enfoque proactivo de riesgo.</p></div>
+            <div class="card"><h4>Documentación Técnica</h4><p>Dominio avanzado en la gestión de <strong>DAM, DAV y DIM</strong> para garantizar levantamientos de carga sin demoras.</p></div>
+        </div>
+    </section>
+
+    <section id="noticias" style="text-align: center;">
+        <h2>Actualidad Aduanera</h2>
+        <p style="margin-bottom: 30px;">Manténgase informado sobre las últimas notas de prensa y novedades institucionales de la Aduana Nacional.</p>
+        <div class="card" style="max-width: 600px; margin: 0 auto; border: 2px solid var(--accent);">
+            <h3>Notas de Prensa ANB</h3>
+            <p>Acceda a las últimas publicaciones y noticias oficiales emitidas por la administración aduanera.</p>
+            <a href="https://www.aduana.gob.bo/index.php/p-gina-de-notas-de-prensa" target="_blank" class="btn-cta" style="padding: 10px 20px; font-size: 14px; display: inline-block; margin-top: 15px;">Ver Notas de Prensa</a>
+        </div>
+    </section>
+
+    <section id="contacto">
+        <h2>Solicita una Cotización</h2>
+        <div class="formulario">
+            <form action="#" method="POST">
+                <label>Nombre de la Empresa</label>
+                <input type="text" required>
+                <label>Servicio Requerido</label>
+                <select><option>Importación</option><option>Exportación</option><option>Asesoría</option></select>
+                <label>Detalles de su carga</label>
+                <textarea rows="4"></textarea>
+                <button type="submit">Enviar Solicitud</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2026 Agencia despachante W.L. Obando | Oficina Central: Cochabamba, Bolivia</p>
+    </footer>
+
+</body>
+</html>
